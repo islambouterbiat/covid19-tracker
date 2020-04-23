@@ -1,0 +1,22 @@
+.cards-container {
+  margin-top: 10px;
+  justify-content: center;
+  width: 100%;
+}
+.card-body {
+  text-align: center;
+}
+
+.confirmed {
+  border-bottom: 10px solid #3578e5 !important;
+}
+.deaths {
+  border-bottom: 10px solid #fa3e3e !important;
+}
+.recovered {
+  border-bottom: 10px solid #42b72a !important;
+}
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+}
