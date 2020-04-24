@@ -17,9 +17,13 @@ class App extends Component {
     const { data } = this.state;
     return (
       <React.Fragment>
-        <h1 className="app-header">Covid-19 Tracker Made By Islam</h1>
+        <h1 className="app-header">
+          Covid-19 Tracker Made By Islam Bouterbiat
+        </h1>
         <div className="app-container">
+          <h2 className="world-header">WorldWide</h2>
           <Cards data={data} />
+          {/* <h2 className="world-header">Algeria .. Coming ...</h2> */}
         </div>
       </React.Fragment>
     );
