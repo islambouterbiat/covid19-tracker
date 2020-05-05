@@ -33,7 +33,7 @@ function CountryPicker({ onCountryChange }) {
       <Select
         options={options}
         onChange={(e) => onCountryChange(e.value)}
-        placeholder="Select your country .."
+        placeholder="Search for your country .."
       />
       {/* <select
         className="custom-select"
