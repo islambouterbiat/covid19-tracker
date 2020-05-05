@@ -35,7 +35,6 @@ export const fetchData = async (country) => {
       data: { reports },
     } = await axios.get(`${api}/Allreports`);
     const data = reports[0].table[0];
-    console.log(data);
     return data.filter((c) => c.Country === "World");
   } catch (ex) {
     console.log(ex);
