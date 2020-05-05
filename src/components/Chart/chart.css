@@ -1,0 +1,12 @@
+.chart-box {
+  margin: auto;
+  width: 65%;
+}
+.loading-chart {
+  margin: 40px auto;
+}
+.loading-chart-txt {
+  margin-top: -3px;
+  margin-left: 5px;
+  color: #5e5e5f;
+}

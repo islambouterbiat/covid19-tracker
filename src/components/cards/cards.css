@@ -3,20 +3,41 @@
   justify-content: center;
   width: 100%;
 }
+.row {
+  margin: 0 !important;
+}
+.card-box {
+  margin-bottom: 8px;
+}
 .card-body {
   text-align: center;
 }
 
 .confirmed {
   border-bottom: 10px solid #3578e5 !important;
+  font-weight: bold;
+  color: #3578e5;
 }
 .deaths {
   border-bottom: 10px solid #fa3e3e !important;
+  font-weight: bold;
+  color: #fa3e3e;
 }
 .recovered {
   border-bottom: 10px solid #42b72a !important;
+  font-weight: bold;
+  color: #42b72a;
+}
+.card-stats {
+  color: black !important;
+  font-weight: normal;
 }
 .loading-spinner {
   display: flex;
   justify-content: center;
+}
+
+.card {
+  height: 100% !important;
+  align-items: center;
 }

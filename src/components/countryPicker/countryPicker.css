@@ -1,0 +1,13 @@
+.countrypicker-box {
+  width: 250px;
+  margin: 40px auto;
+}
+
+.loading-countries {
+  margin: 40px auto;
+}
+.loading-countries-txt {
+  margin-top: 3px;
+  margin-left: 2px;
+  color: #5e5e5f;
+}
