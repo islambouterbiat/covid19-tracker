@@ -2,6 +2,11 @@
   margin: auto;
   width: 65%;
 }
+@media (max-width: 770px) {
+  .chart-box {
+    width: 95%;
+  }
+}
 .loading-chart {
   margin: 40px auto;
 }
