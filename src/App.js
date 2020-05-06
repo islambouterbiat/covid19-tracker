@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { fetchData, fetchFlags } from "./api/index";
+import { fetchData, fetchFlags, everyDayData } from "./api/index";
 import Cards from "./components/cards/cards";
 import Chart from "./components/Chart/Chart";
 import CountryPicker from "./components/countryPicker/countryPicker";
@@ -45,7 +45,7 @@ class App extends Component {
                   className="countryFlag"
                   src="https://www.worldometers.info/img/flags/small/tn_us-flag.gif"
                 ></img>
-              ) : country && country != "World" ? (
+              ) : country && country !== "World" ? (
                 <img className="countryFlag" src={flag ? flag : ""}></img>
               ) : (
                 ""
