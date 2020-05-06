@@ -1,6 +1,9 @@
 .countrypicker-box {
-  width: 250px;
+  width: 500px;
   margin: 40px auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .loading-countries {
@@ -10,4 +13,11 @@
   margin-top: 3px;
   margin-left: 2px;
   color: #5e5e5f;
+}
+.css-10nd86i {
+  width: 255px !important;
+}
+.select-msg {
+  margin-bottom: 5px;
+  margin-right: 5px;
 }

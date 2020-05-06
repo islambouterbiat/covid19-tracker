@@ -14,7 +14,7 @@ function CountryPicker({ onCountryChange }) {
     getCountries();
   }, [setCountries]);
 
-  const options = countries.map((c) => ({
+  const options = countries.sort().map((c) => ({
     label: c,
     value: c,
   }));
@@ -29,7 +29,8 @@ function CountryPicker({ onCountryChange }) {
       </div>
     );
   return (
-    <div className="countrypicker-box">
+    <div className="countrypicker-box d-flex">
+      <p className="select-msg">You can Search here : </p>
       <Select
         options={options}
         onChange={(e) => onCountryChange(e.value)}
